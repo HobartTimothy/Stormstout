@@ -62,6 +62,36 @@
                                         <SourceLocation resid="Taskpane.Url"/>
                                     </Action>
                                 </Control>
+                                <Control xsi:type="Button" id="btnBack">
+                                    <Label resid="btnBack.Label"/>
+                                    <Supertip>
+                                        <Title resid="btnBack.Label"/>
+                                        <Description resid="btnBack.Tooltip"/>
+                                    </Supertip>
+                                    <Icon>
+                                        <bt:Image size="16" resid="Icon.16x16"/>
+                                        <bt:Image size="32" resid="Icon.32x32"/>
+                                        <bt:Image size="80" resid="Icon.80x80"/>
+                                    </Icon>
+                                    <Action xsi:type="ExecuteFunction">
+                                        <FunctionName>actionBack</FunctionName>
+                                    </Action>
+                                </Control>
+                                <Control xsi:type="Button" id="btnSupport">
+                                    <Label resid="btnSupport.Label"/>
+                                    <Supertip>
+                                        <Title resid="btnSupport.Label"/>
+                                        <Description resid="btnSupport.Tooltip"/>
+                                    </Supertip>
+                                    <Icon>
+                                        <bt:Image size="16" resid="Icon.16x16"/>
+                                        <bt:Image size="32" resid="Icon.32x32"/>
+                                        <bt:Image size="80" resid="Icon.80x80"/>
+                                    </Icon>
+                                    <Action xsi:type="ExecuteFunction">
+                                        <FunctionName>actionContactSupport</FunctionName>
+                                    </Action>
+                                </Control>
                             </Group>
                             <Label resid="CustomTab.Label"/>
                         </CustomTab>
@@ -85,10 +115,14 @@
                 <bt:String id="CustomTab.Label" DefaultValue="StormeWord"/>
                 <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
                 <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
+                <bt:String id="btnBack.Label" DefaultValue="返回"/>
+                <bt:String id="btnSupport.Label" DefaultValue="联系支持人员"/>
             </bt:ShortStrings>
             <bt:LongStrings>
                 <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the StormeWord tab and click the 'Show Task Pane' button to get started."/>
                 <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Task Pane"/>
+                <bt:String id="btnBack.Tooltip" DefaultValue="返回上一步或主菜单"/>
+                <bt:String id="btnSupport.Tooltip" DefaultValue="打开支持页面获取帮助"/>
             </bt:LongStrings>
         </Resources>
     </VersionOverrides>
