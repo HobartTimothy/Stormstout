@@ -49,7 +49,25 @@ module.exports = async (env, options) => {
         {
           test: /\.html$/,
           exclude: /node_modules/,
-          use: "html-loader",
+          use: {
+            loader: "html-loader",
+            options: {
+              sources: {
+                list: [
+                  {
+                    tag: "img",
+                    attribute: "src",
+                    type: "src",
+                  },
+                  {
+                    tag: "link",
+                    attribute: "href",
+                    type: "src",
+                  },
+                ],
+              },
+            },
+          },
         },
         {
           test: /\.(png|jpg|jpeg|ttf|woff|woff2|gif|ico)$/,
@@ -71,6 +89,10 @@ module.exports = async (env, options) => {
           {
             from: "assets/*",
             to: "assets/[name][ext][query]",
+          },
+          {
+            from: "src/lib/*",
+            to: "lib/[name][ext][query]",
           },
           {
             from: "manifest*.xml",
