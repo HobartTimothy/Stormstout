@@ -62,11 +62,11 @@
                                         <SourceLocation resid="Taskpane.Url"/>
                                     </Action>
                                 </Control>
-                                <Control xsi:type="Button" id="btnBack">
-                                    <Label resid="btnBack.Label"/>
+                                <Control xsi:type="Button" id="btnFeedback">
+                                    <Label resid="btnFeedback.Label"/>
                                     <Supertip>
-                                        <Title resid="btnBack.Label"/>
-                                        <Description resid="btnBack.Tooltip"/>
+                                        <Title resid="btnFeedback.Label"/>
+                                        <Description resid="btnFeedback.Tooltip"/>
                                     </Supertip>
                                     <Icon>
                                         <bt:Image size="16" resid="Icon.16x16"/>
@@ -74,7 +74,7 @@
                                         <bt:Image size="80" resid="Icon.80x80"/>
                                     </Icon>
                                     <Action xsi:type="ExecuteFunction">
-                                        <FunctionName>actionBack</FunctionName>
+                                        <FunctionName>actionFeedback</FunctionName>
                                     </Action>
                                 </Control>
                                 <Control xsi:type="Button" id="btnSupport">
@@ -115,13 +115,13 @@
                 <bt:String id="CustomTab.Label" DefaultValue="StormeWord"/>
                 <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
                 <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
-                <bt:String id="btnBack.Label" DefaultValue="返回"/>
+                <bt:String id="btnFeedback.Label" DefaultValue="反馈"/>
                 <bt:String id="btnSupport.Label" DefaultValue="联系支持人员"/>
             </bt:ShortStrings>
             <bt:LongStrings>
                 <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the StormeWord tab and click the 'Show Task Pane' button to get started."/>
                 <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Task Pane"/>
-                <bt:String id="btnBack.Tooltip" DefaultValue="返回上一步或主菜单"/>
+                <bt:String id="btnFeedback.Tooltip" DefaultValue="前往 GitHub Issues 提交反馈"/>
                 <bt:String id="btnSupport.Tooltip" DefaultValue="打开支持页面获取帮助"/>
             </bt:LongStrings>
         </Resources>
