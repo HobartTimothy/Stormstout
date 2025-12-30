@@ -9,8 +9,8 @@
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="StormExcel"/>
     <Description DefaultValue="A template to get started."/>
-    <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-    <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
+    <IconUrl DefaultValue="https://localhost:3000/assets/logo-32.jpg"/>
+    <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/logo-64.jpg"/>
     <SupportUrl DefaultValue="https://www.contoso.com/help"/>
     <AppDomains>
         <AppDomain>https://www.contoso.com</AppDomain>
@@ -100,9 +100,9 @@
         </Hosts>
         <Resources>
             <bt:Images>
-                <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-                <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-                <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+                <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/logo-16.jpg"/>
+                <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/logo-32.jpg"/>
+                <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/logo-80.jpg"/>
             </bt:Images>
             <bt:Urls>
                 <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
@@ -120,9 +120,9 @@
             </bt:LongStrings>
 
             <bt:Images>
-                <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-                <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-                <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+                <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/logo-16.jpg"/>
+                <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/logo-32.jpg"/>
+                <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/logo-80.jpg"/>
             </bt:Images>
             <bt:Urls>
                 <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
