@@ -30,7 +30,7 @@
           </GetStarted>
           <FunctionFile resid="Commands.Url"/>
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
-            <OfficeTab id="TabHome">
+            <CustomTab id="StormeWordTab">
               <Group id="CommandsGroup">
                 <Label resid="CommandsGroup.Label"/>
                 <Icon>
@@ -55,7 +55,8 @@
                   </Action>
                 </Control>
               </Group>
-            </OfficeTab>
+              <Label resid="CustomTab.Label"/>
+            </CustomTab>
           </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
@@ -73,11 +74,12 @@
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
+        <bt:String id="CustomTab.Label" DefaultValue="StormeWord"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started."/>
+        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the StormeWord tab and click the 'Show Task Pane' button to get started."/>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Task Pane"/>
       </bt:LongStrings>
     </Resources>
