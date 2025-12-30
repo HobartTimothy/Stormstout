@@ -1,10 +1,3 @@
-/*
- * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
- * See LICENSE in the project root for license information.
- */
-
-/* global global, Office, self, window */
-
 Office.onReady(() => {
   // 如果需要初始化，可以在这里添加代码
 });
@@ -16,7 +9,7 @@ Office.onReady(() => {
  */
 function actionFeedback(event: Office.AddinCommands.Event) {
   const feedbackUrl = "https://github.com/HobartTimothy/Stormstout/issues";
-  
+
   // 在新窗口打开 GitHub Issues 页面
   window.open(feedbackUrl, "_blank");
 
@@ -31,8 +24,8 @@ function actionFeedback(event: Office.AddinCommands.Event) {
  */
 function actionContactSupport(event: Office.AddinCommands.Event) {
   // 替换为你实际的支持页面 URL
-  const supportUrl = "https://www.google.com/search?q=help"; 
-  
+  const supportUrl = "https://github.com/HobartTimothy/Stormstout";
+
   // 在新窗口打开 URL
   window.open(supportUrl, "_blank");
 

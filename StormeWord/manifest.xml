@@ -114,12 +114,12 @@
                 <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
                 <bt:String id="CustomTab.Label" DefaultValue="StormeWord"/>
                 <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-                <bt:String id="TaskpaneButton.Label" DefaultValue="Show Task Pane"/>
+                <bt:String id="TaskpaneButton.Label" DefaultValue="关于"/>
                 <bt:String id="btnFeedback.Label" DefaultValue="反馈"/>
                 <bt:String id="btnSupport.Label" DefaultValue="联系支持人员"/>
             </bt:ShortStrings>
             <bt:LongStrings>
-                <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the StormeWord tab and click the 'Show Task Pane' button to get started."/>
+                <bt:String id="GetStarted.Description" DefaultValue="您的示例插件已成功加载。转到 StormeWord 选项卡并点击&quot;关于&quot;按钮开始使用。"/>
                 <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Task Pane"/>
                 <bt:String id="btnFeedback.Tooltip" DefaultValue="前往 GitHub Issues 提交反馈"/>
                 <bt:String id="btnSupport.Tooltip" DefaultValue="打开支持页面获取帮助"/>
