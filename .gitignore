@@ -1,4 +1,8 @@
 .idea/
+.vs/
+.vscode-test/
+.vscode/extensions.json
+.vscode/
 
 # Logs
 logs
